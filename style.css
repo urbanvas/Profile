@@ -40,7 +40,7 @@ h2 {
 }
 /*--Parallax--*/
 .parallax {
-  background: url("images/flower.jpg") repeat fixed 100%;
+  background: url("Images/flower.jpg") repeat fixed 100%;
   width: 100%;
   height: 250%;
 
@@ -50,7 +50,7 @@ h2 {
   padding-bottom: 25%;
 }
 .parallax2 {
-  background: url("images/head.jpg");
+  background: url("Images/head.jpg");
   width: 100%;
   height: 30%;
   background-repeat: no-repeat;
