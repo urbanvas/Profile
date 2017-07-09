@@ -1,0 +1,132 @@
+h1 {
+  color: #F2543C;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .3em;
+  text-align: center;
+  margin: 30% 0;
+  font-size: 4em;
+  animation: animate 4s;
+}
+/*
+@keyframes animate {
+	0% {
+		transform: translateY(-100%);
+    transform: translatex(-100%);
+	}
+	40%{
+		transform: translateY(20%);
+    transform: translateX(20%);
+	}
+	70%{
+		transform: translateY(-10%);
+    transform: translateX(-10%);
+	}
+	85%{
+		transform: translateY(10%);
+    transform: translateX(10%);
+	}
+	100% {
+		transform: translateY(0%);
+    transform: translateX(0%);
+	}
+*/
+h2 {
+  color: #F2543C;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .1em;
+  text-align: center;
+  margin: 35% 0;
+  font-size: 4em;
+}
+/*--Parallax--*/
+.parallax {
+  background: url("images/flower.jpg") repeat fixed 100%;
+  width: 100%;
+  height: 250%;
+
+}
+.parallax-inner {
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+.parallax2 {
+  background: url("images/head.jpg");
+  width: 100%;
+  height: 30%;
+  background-repeat: no-repeat;
+}
+.parallax-inner2 {
+  padding-top: 20%;
+  padding-bottom:20%;
+  background-repeat: no-repeat;
+}
+/*--Parallax--*/
+
+p {
+  color: #F2543C;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .1em;
+  text-indent: 2em;
+  margin: 35% 0;
+  font-size: 4em;
+}
+ul {
+  list-style-type:none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  color: white;
+}
+li {
+  float: left;
+  width: 48%;
+  text-align: center;
+}
+a:link {
+    text-decoration: none;
+    color: #F2543C;
+    padding: 5px;
+    border-style:solid;
+    border-width:.1em;
+
+}
+a:visited {
+  text-decoration: none;
+  color: #F2543C;
+  padding: 5px;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-style: solid;
+  border-width:.4em;
+}
+a:active {
+  text-decoration: none;
+  color: #366FBF;
+  padding: 5px;
+}
+#talking {
+  color: #F2543C;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .3em;
+  text-align: center;
+  margin: 10% 0;
+  font-size: 4em;
+}
+#contact {
+	padding:25px;
+	margin:50px 0;
+}
+fieldset {
+  text-align: center;
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#button{
+  margin:  0 48%;
+}
