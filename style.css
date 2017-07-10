@@ -7,29 +7,6 @@ h1 {
   font-size: 4em;
   animation: animate 4s;
 }
-/*
-@keyframes animate {
-	0% {
-		transform: translateY(-100%);
-    transform: translatex(-100%);
-	}
-	40%{
-		transform: translateY(20%);
-    transform: translateX(20%);
-	}
-	70%{
-		transform: translateY(-10%);
-    transform: translateX(-10%);
-	}
-	85%{
-		transform: translateY(10%);
-    transform: translateX(10%);
-	}
-	100% {
-		transform: translateY(0%);
-    transform: translateX(0%);
-	}
-*/
 h2 {
   color: #F2543C;
   font-family: 'Poppins', sans-serif;
@@ -130,3 +107,24 @@ fieldset {
 #button{
   margin:  0 48%;
 }
+@keyframes animate {
+	0% {
+		transform: translateY(-100%);
+    transform: translatex(-100%);
+	}
+	40%{
+		transform: translateY(20%);
+    transform: translateX(20%);
+	}
+	70%{
+		transform: translateY(-10%);
+    transform: translateX(-10%);
+	}
+	85%{
+		transform: translateY(10%);
+    transform: translateX(10%);
+	}
+	100% {
+		transform: translateY(0%);
+    transform: translateX(0%);
+	}
